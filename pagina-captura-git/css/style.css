@@ -1,0 +1,104 @@
+body {
+    background: #f6f8fa;
+    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff3ed;
+    color: #d35400;
+    text-align: center;
+    padding: 32px 16px 16px 16px;
+    border-bottom: 2px solid #f6cfc2;
+}
+
+.git-logo {
+    width: 64px;
+    margin-bottom: 12px;
+}
+
+.git-banner {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 18px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(36,41,46,0.08);
+    padding: 12px;
+}
+
+section {
+    background: #fff;
+    border-radius: 12px;
+    margin: 18px 8px;
+    padding: 18px 12px;
+    box-shadow: 0 2px 8px rgba(36,41,46,0.06);
+}
+
+h1, h2 {
+    margin: 0 0 12px 0;
+    color: #d35400;
+}
+
+ul {
+    background: #f6f8fa;
+    color: #222;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin: 0 0 18px 0;
+    box-shadow: 0 2px 8px rgba(36,41,46,0.04);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.whatsapp-btn-container {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+}
+
+footer {
+    background: #fff3ed;
+    color: #d35400;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 0.95em;
+    margin-top: 24px;
+    border-top: 2px solid #f6cfc2;
+}
+
+@media (max-width: 600px) {
+    .git-banner {
+        max-width: 100%;
+    }
+    section {
+        padding: 12px 4px;
+        margin: 12px 2px;
+    }
+    ul {
+        padding: 12px 8px;
+    }
+    header {
+        padding: 24px 8px 8px 8px;
+    }
+}
